@@ -1,7 +1,9 @@
+@import url("/styles/header.css");
 @import url("/styles/hero.css");
 @import url("/styles/cards.css");
 @import url("/styles/gallery.css");
 @import url("/styles/contact.css");
+@import url("/styles/footer.css");
 
 @media (max-width:768px){
 
