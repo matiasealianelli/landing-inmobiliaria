@@ -31,7 +31,37 @@ nav{
     transition: all 0.3s ease;
 }
 @media (max-width:768px){
-
+    header{
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    nav{
+        font-size: 1.2rem;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        position: absolute;
+        top: 8rem;
+        padding: 3rem;
+        background-color: rgb(34,61,116);
+    }
+    .conteiner-logo-header{
+        margin-right: 1rem;
+    }
+    .icon-menu{
+        display: flex;
+        position: absolute;
+        right: 1rem;
+    }
+    .icon-close{
+        width: 1.5rem;
+        height: 1.5rem;
+        display: none;
+        position: absolute;
+        right: 1.1rem;
+    }
 }
 @media (min-width:769px) and (max-width:1024px){
 
