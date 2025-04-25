@@ -58,9 +58,41 @@
     transition: all 0.3s ease;
     cursor: pointer;
 }
-@media (max-width:768px){
-
+@media (min-width:280px) and (max-width:767px){
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        gap: 3rem;
+        height: 100vh;
+        width: 85%;
+    }
+    .conteiner-info-hero{
+        width: 100%;
+        text-align: center;
+    }
+    .title-hero{
+        font-size: 2rem;
+    }
+    .text-hero{
+        font-size: 0.8rem;
+    }
+    .conteiner-btns-cta{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+    .conteiner-redes-hero{
+        position: relative;
+        flex-direction: row;
+        align-self: center;
+        right: auto;
+    }
 }
-@media (min-width:769px) and (max-width:1024px){
-
+@media (min-width:768px) and (max-width:1024px){
+    .conteiner-info-hero{
+        width: 70%;
+    }
 }
