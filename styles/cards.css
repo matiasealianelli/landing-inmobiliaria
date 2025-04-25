@@ -36,7 +36,12 @@
     scale: 1.05;
 }
 @media (max-width:768px){
-
+    .cards{
+        width: 85%;
+    }
+    .text-section-cards{
+        width: 100%;
+    }
 }
 @media (min-width:769px) and (max-width:1024px){
 
