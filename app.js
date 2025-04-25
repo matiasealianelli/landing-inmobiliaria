@@ -2,6 +2,8 @@ let btnMenu = document.querySelector(".icon-menu");
 let btnCloseMenu = document.querySelector(".icon-close");
 let nav = document.querySelector("nav");
 let linkNav = document.querySelector(".link-header");
+let conteinerCtaHero = document.querySelector(".conteiner-btns-cta");
+let conteinerRedesHero = document.querySelector(".conteiner-redes-hero");
 
 btnMenu.addEventListener("click", function clickMenu() {
   if (window.matchMedia("(max-width: 768px)").matches) {
@@ -26,3 +28,10 @@ document.querySelectorAll("nav a").forEach((linkNav) => {
     }
   });
 });
+
+function moveConteiner() {
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    conteinerCtaHero.appendChild(conteinerRedesHero)
+  }
+}
+moveConteiner();
