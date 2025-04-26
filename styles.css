@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-@import url("/styles/header.css");
-@import url("/styles/hero.css");
-@import url("/styles/cards.css");
-@import url("/styles/gallery.css");
-@import url("/styles/contact.css");
-@import url("/styles/footer.css");
+@import url("./styles/header.css");
+@import url("./styles/hero.css");
+@import url("./styles/cards.css");
+@import url("./styles/gallery.css");
+@import url("./styles/contact.css");
+@import url("./styles/footer.css");
 *{
     padding: 0;
     margin: 0;
