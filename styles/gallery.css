@@ -87,9 +87,14 @@
     scale: 1.03;
 }
 
-@media (max-width:768px){
-
-}
-@media (min-width:769px) and (max-width:1024px){
-
-}
+@media (min-width: 500px) and (max-width:768px){
+    .image-gallery{
+        width: 15rem;
+        height: 10rem;
+    }
+    }
+    @media (min-width:769px) and (max-width:1024px){
+    .conteiner-gallery{
+        width: 100%;
+    }
+    }
