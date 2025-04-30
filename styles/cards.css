@@ -15,25 +15,42 @@
     margin: 0;
     padding-top: 2rem;
 }
-.card{
-    border: none;
-    width: 20rem;
-    box-shadow: 0 0 15px #cdcdcd ;
-}
-.img-card{
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-.conteiner-info-card{
-    padding: 0.5rem 1rem;
-}
-.text-card{
+.precio-propiedad{
     font-size: 0.8rem;
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    padding: 0.3rem 0.8rem;
+    margin: 0.2rem;
+    background-color: #222;
+    color: #cdcdcd;
+    border-radius: 5px;
 }
-.card:hover{
-    background-color: #eaeaea;
-    transition: all 0.3s linear;
-    scale: 1.05;
+.conteiner-data-destacadas{
+    width: 100%;
+    height: min-content;
+    padding: 0.40rem 0;
+    background-color: rgba(0, 0, 0, 0.488);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    bottom: 22%;
+    transition: all 0.1s ease;
+}
+.condicion-propiedad{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: min-content;
+}
+.sale-rent-prop{
+    margin: 0;
+    padding-top: 0.5rem;
 }
 @media (max-width:768px){
     .cards{
