@@ -80,8 +80,50 @@ label, input, option{
     transition: all 0.3s ease;
 }
 @media (max-width:768px){
-
+    .contact{
+        width: 85%;
+    }
+    .text-section-contact{
+        width: 100%;
+    }
+    .conteiner-cols-contact{
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+    }
+    form{
+        width: 90%;
+        padding: 0;
+    }
+    .col-1{
+        width: 100%;
+        padding: 0;
+    }
+    .col-2{
+    display: none;
+    }
+    .conteiner-btns-form{
+        gap: 0.5rem;
+    }
 }
 @media (min-width:769px) and (max-width:1024px){
-
+    .text-section-contact{
+        width: 100%;
+    }
+    .conteiner-cols-contact{
+    display: flex;
+    justify-content: center;
+    }
+    form{
+        width: 50%;
+    }
+    .col-1{
+        width: 100%;
+    }
+    .conteiner-checks{
+        width: 100%;
+    }
+    .col-2{
+        display: flex;
+    }
 }
