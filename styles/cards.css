@@ -1,5 +1,5 @@
 .cards{
-    width: 85%;
+    width: 80%;
 }
 .text-section-cards{
     width: 70%;
@@ -9,11 +9,11 @@
 .conteiner-cards{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2.5rem;
     margin: 0;
     padding-top: 2rem;
+    row-gap: 3rem;
 }
 .precio-propiedad{
     font-size: 0.8rem;
@@ -61,5 +61,10 @@
     }
 }
 @media (min-width:769px) and (max-width:1024px){
-
+    .cards{
+        width: 85%;
+    }
+    .text-section-cards{
+        width: 100%;
+    }
 }

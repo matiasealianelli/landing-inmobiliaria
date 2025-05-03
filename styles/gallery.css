@@ -1,5 +1,5 @@
 .gallery{
-    width: 85%;
+    width: 80%;
 }
 .title-gallery-section{
     padding-bottom: 3.5rem;
@@ -8,11 +8,13 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
-    gap: 1rem;
+    row-gap: 3rem;
 }
 .conteiner-image{
+    width: 30%;
+    min-width: 13rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +25,7 @@
     background-color: rgb(239, 239, 239);
 }
 .image-gallery{
-    width: 20rem;
+    width: 100%;
     height: 15rem;
     object-fit:fill;
     display: flex;
@@ -74,6 +76,7 @@
     fill: #fff;
 }
 .address-house{
+    height: min-content;
     font-size: 0.9rem;
     display: flex;
     margin: 0.5rem 0 ;
@@ -86,15 +89,57 @@
     cursor:pointer;
     scale: 1.03;
 }
+@media (min-width: 280px) and (max-width:500px){
+    .gallery{
+        width: 85%;
+    }
+    .conteiner-gallery{
+        justify-content: center;
+    }
+    .conteiner-image{
+        width: 100%;
+    }
+    .image-gallery{
+        width: 100%;
+        height: 15rem;
+        object-fit:cover;
+    }
+}
 
 @media (min-width: 500px) and (max-width:768px){
+    .gallery{
+        width: 85%;
+    }
+    .conteiner-gallery{
+        justify-content: space-between center;
+        
+    }
+    .conteiner-image{
+        width: 45%;
+    }
     .image-gallery{
-        width: 15rem;
+        width: 100%;
         height: 10rem;
+    }
+    .conteiner-icons-card{
+        display: flex;
+        position: absolute;
+        bottom: 19%;
     }
     }
     @media (min-width:769px) and (max-width:1024px){
+        .gallery{
+            width: 85%;
+        }
     .conteiner-gallery{
         width: 100%;
+    }
+    .conteiner-image{
+        width: 48%;
+
+    }
+    .image-gallery{
+        width: 100%;
+        height: 15rem;
     }
     }

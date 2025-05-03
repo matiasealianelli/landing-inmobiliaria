@@ -1,5 +1,5 @@
 .contact{
-    width: 85%;
+    width: 80%;
 }
 .text-section-contact{
     width: 70%;
@@ -107,6 +107,9 @@ label, input, option{
     }
 }
 @media (min-width:769px) and (max-width:1024px){
+    .contact{
+        width: 85%;
+    }
     .text-section-contact{
         width: 100%;
     }
