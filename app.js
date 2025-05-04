@@ -35,3 +35,17 @@ function moveConteiner() {
   }
 }
 moveConteiner();
+
+window.addEventListener("scroll", () => {
+  let valueInitHeader = 0;
+  let heightScroll = document.documentElement.scrollTop;
+  if (heightScroll === valueInitHeader) {
+    document.querySelector("header").style.backgroundColor="transparent"
+  } else if (heightScroll > valueInitHeader) {
+    document.querySelector("header").style.backgroundColor = "#223d74"
+    document.querySelector("header").style.transition = "all 0.3s ease";
+  }
+  else if (heightScroll < valueInitHeader) {
+    document.querySelector("header").style.backgroundColor = "transparent"
+  }
+})
